@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đăng bài Facebook tự động</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="card">
+    <h1>📅 Đặt lịch đăng Facebook</h1>
+
+    <label>Nội dung bài viết</label>
+    <textarea id="content" rows="6" placeholder="Nhập nội dung bài đăng..."></textarea>
+
+    <label>Ảnh đính kèm (tùy chọn)</label>
+    <input type="file" id="image" accept="image/*">
+    <div id="preview"></div>
+
+    <label>Thời gian đăng</label>
+    <input type="datetime-local" id="schedule_time">
+
+    <button id="submitBtn">Lên lịch đăng</button>
+    <p id="status"></p>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
