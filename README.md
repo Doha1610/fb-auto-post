@@ -83,9 +83,8 @@ Mở trình duyệt và truy cập: **`http://127.0.0.1:5000`**
 - **Tab YouTube:** Chọn video đã xử lý, nhập tiêu đề và bấm Upload.
 
 ## ⚠️ Lưu ý quan trọng
-1. **Bảo mật:** Tuyệt đối **KHÔNG** commit file trong thư mục `cookies/` lên GitHub. File `.gitignore` đã được cấu hình để bảo vệ bạn.
-2. **Rủi ro tài khoản:** Việc sử dụng công cụ tự động hóa (Selenium) để đăng bài lên Facebook cá nhân có thể vi phạm điều khoản dịch vụ của Meta. Hãy sử dụng với tần suất vừa phải (1-2 bài/ngày) để tránh bị khóa tài khoản.
-3. **Dung lượng file:** Không nên upload các file media quá lớn (trên 500MB) qua giao diện web để tránh lỗi `Timeout`. Hãy xử lý video nhỏ trước khi tải lên.
+1. **Rủi ro tài khoản:** Việc sử dụng công cụ tự động hóa (Selenium) để đăng bài lên Facebook cá nhân có thể vi phạm điều khoản dịch vụ của Meta. Hãy sử dụng với tần suất vừa phải (1-2 bài/ngày) để tránh bị khóa tài khoản.
+2. **Dung lượng file:** Không nên upload các file media quá lớn (trên 500MB) qua giao diện web để tránh lỗi `Timeout`. Hãy xử lý video nhỏ trước khi tải lên.
 
 ## 📝 Giấy phép
 Dự án này được phát triển cho mục đích cá nhân. Vui lòng không sử dụng cho các mục đích vi phạm pháp luật hoặc spam.
@@ -96,8 +95,3 @@ Dự án này được phát triển cho mục đích cá nhân. Vui lòng khôn
 ### 💡 Hướng dẫn Commit file README này:
 Sau khi lưu file, bạn mở Terminal lên và chạy lệnh sau để cập nhật lên GitHub:
 
-```bash
-git add README.md
-git commit -m "docs: Viết tài liệu hướng dẫn sử dụng README"
-git push origin main
-```
