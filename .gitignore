@@ -1,4 +1,5 @@
 # Môi trường ảo
+.venv/
 venv/
 __pycache__/
 *.pyc
