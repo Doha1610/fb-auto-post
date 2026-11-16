@@ -1,0 +1,19 @@
+# Môi trường ảo
+venv/
+__pycache__/
+*.pyc
+
+# File bảo mật & dữ liệu tải về
+cookies/
+uploads/
+downloads/
+outputs/
+logs/
+temp/
+
+# File cấu hình môi trường
+.env
+
+# Hệ điều hành
+.DS_Store
+Thumbs.db
