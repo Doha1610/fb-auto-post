@@ -88,10 +88,4 @@ Mở trình duyệt và truy cập: **`http://127.0.0.1:5000`**
 
 ## 📝 Giấy phép
 Dự án này được phát triển cho mục đích cá nhân. Vui lòng không sử dụng cho các mục đích vi phạm pháp luật hoặc spam.
-```
-
----
-
-### 💡 Hướng dẫn Commit file README này:
-Sau khi lưu file, bạn mở Terminal lên và chạy lệnh sau để cập nhật lên GitHub:
 
